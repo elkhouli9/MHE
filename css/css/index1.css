@@ -15,7 +15,7 @@
         scroll-behavior: smooth;
  }
  body {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Cairo', sans-serif; 
 }
 ul {
     list-style: none;
@@ -132,14 +132,33 @@ left: 0;
 header nav ul {
 display: flex;
 }
-h3 {
+h5 {
     direction: rtl;
-    font-size: 30px;
+    font-size: 25px;
     margin: 22px;
     padding: 10px;
+    font-weight: normal;
+    color:#000000d4;
+}
+@media(max-width:767px) {
+    h5 {
+        font-size: 17px;
+        padding-right: 0;
+    }
 }
 .p {
     direction: rtl;
+}
+.emo {
+    position: relative;
+    left: 670px;
+    padding-top: 20px;
+}
+@media(max-width:767px) {
+    .emo {
+        width: 100%;
+        left: 0;
+    }
 }
 .landing {
     position: relative;
